@@ -6,7 +6,7 @@ Il progetto consiste in quanto segue:
 * Interrogazione dell'indice costruito.
 
 ## Struttura del progetto
-Il progetto richiesto per l’Homework 2 include due classi Java i cui rispettivi metodi `main` possono essere
+Il progetto include due classi Java i cui rispettivi metodi `main` possono essere
 eseguiti, con dei parametri, da riga di comando:
 * **IndexFiles.java** contiene il codice che indicizza i file .TXT contenuti in una directory locale specificata
   dall’utente (e quelli contenuti nel sottoalbero della directory);
