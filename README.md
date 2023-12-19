@@ -1,6 +1,11 @@
-# Homework 2 di ID
+# Homework 2 del corso di Ingegneria dei Dati (2023/2024)
 
 ## Descrizione del progetto
+Il progetto consiste in quanto segue:
+* Indicizzazione di file TXT contenuti in una directory locale;
+* Interrogazione dell'indice costruito.
+
+## Struttura del progetto
 Il progetto richiesto per l’Homework 2 è strutturato in due classi Java, i cui rispettivi metodi `main` possono essere
 eseguiti, con dei parametri, da riga di comando:
 * **IndexFiles.java** contiene il codice che indicizza i file .TXT contenuti in una directory locale specificata
