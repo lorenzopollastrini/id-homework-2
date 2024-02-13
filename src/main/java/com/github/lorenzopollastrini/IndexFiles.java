@@ -22,7 +22,7 @@ import java.util.Date;
 public class IndexFiles {
     public static void main(String[] args) throws Exception {
         String usage = "Utilizzo: java com.github.lorenzopollastrini.IndexFiles" +
-                " [-index INDEX_PATH] [-docs DOCS_PATH] [-update]\n\n" +
+                " [-index INDEX_PATH] -docs DOCS_PATH [-update]\n\n" +
                 "Questo comando indicizza i documenti in DOCS_PATH, creando un indice Lucene" +
                 "in INDEX_PATH che può essere interrogato con SearchFiles. " +
                 "Specificando -update è possibile aggiornare l'indice senza cancellarlo e ricostruirlo.";

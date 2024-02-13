@@ -22,7 +22,7 @@ import java.nio.file.Paths;
 public class SearchFiles {
     public static void main(String[] args) throws Exception {
         String usage = "Utilizzo: java com.github.lorenzopollastrini.SearchFiles" +
-                " [-index INDEX_PATH] [-query QUERY]\n\n" +
+                " [-index INDEX_PATH] -query QUERY\n\n" +
                 "Questo comando interroga l'indice Lucene contenuto in INDEX_PATH con la query specificata.";
 
         if (args.length > 0 && ("-h".equals(args[0]) || "-help".equals(args[0]))) {
